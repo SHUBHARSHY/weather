@@ -1,0 +1,68 @@
+.weather{
+  /* background-color: greenyellow; */
+}
+
+
+.weather-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.address{
+  font-size: 50px;
+  font-weight: 800;
+  color: blue;
+  margin:0;
+}
+.condition{
+  color: yellow;
+  font-size: 30px;
+  margin: 0;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 40px;
+
+
+}
+
+.right-card{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+
+.hourData{
+  margin: 0;
+  color: grey;
+
+}
+.hourly-card{
+  /* border: 1px solid; */
+  /* background-color: gray; */
+padding: 0px 20px;
+height: 200px;
+}
+
+.hourly-inr-card{
+  border: 1px solid;
+  background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap:20px
+}
+.crouse-Card{
+  margin: 0;
+  font-size: 16px;
+}
